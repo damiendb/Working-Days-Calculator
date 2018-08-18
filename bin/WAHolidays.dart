@@ -9,14 +9,21 @@ add a test() function with assert() statements and a super.test() if using class
 
  */
 
+// Use a Map? or use a class turned into a List?
+var WAHolidays = {
+
+  '2018-01-01': "New Year's Day",
+  '2018-01-27': "Australia Day Holiday",
+  '2018-03-02': "Labour Day"
+};
+
 class HolidaysInPeriod{
 
   int intHolidayCount = 0;
 
   // Constructor for the Class
   Pub_Holidays() {
-
-
+    print(intHolidayCount);
   }
 
 }
